@@ -3,6 +3,9 @@ font-family: "Roboto", "Arial" ;
 text-transform: uppercase;
 margin: 0;
 padding: 0;
+background-image: url(../img/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 .visually-hidden {
   position: absolute;
@@ -23,10 +26,6 @@ padding: 0;
   margin-right: auto;
 }
 .site_main {
-  background-image: url(../img/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
   padding-top: 90px;
 }
 .site_payment_method {
