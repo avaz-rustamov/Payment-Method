@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Payment Method</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="site_main">
+    <div class="container">
+      <section class="site_payment_method">
+        <div class="dots">
+          <span class="dot dot_first"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <h1 class="site_heading">
+          Payment Method
+        </h1>
+
+        <form class="payment_main" action="#">
+          <label class="payment_text" >
+            <input  class="payment_card visually-hidden" type="radio" name="card" >
+            <div class="card_title">
+              <img src="img/visa.svg" alt="Visa img" height="40" width="40">
+
+              <p class="card_name">
+                Visa
+              </p>
+            </div>
+
+          </label>
+          <label class="payment_text" for="payment">
+            <input  class="payment_card visually-hidden" type="radio" name="card" id="payment">
+            <div class="card_title">
+              <img src="img/mastercard.svg" alt="Mastercard img" height="40" width="40">
+
+              <p class="card_name">
+                Mastercard
+              </p>
+            </div>
+
+          </label>
+          <label class="payment_text">
+            <input  class="payment_card visually-hidden" type="radio" name="card">
+             <div class="card_title">
+              <img src="img/maestro.svg" alt="Maestro img" height="40" width="40">
+              <p class="card_name">Maestro</p>
+            </div>
+
+          </label>
+          <button class="button" type="button">Next step</button>
+        </form>
+      </section>
+    </div>
+
+  </main>
+
+</body>
+</html>
